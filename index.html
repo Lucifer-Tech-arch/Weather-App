@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-app</title>
+    <link rel="stylesheet" href="wheather2.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="right">
+                <input type="text" id="search" placeholder="Enter City Name">
+                <button class="box">
+                    <img src="search.png" alt="">
+                </button>
+            </div>
+        </nav>
+        <div class="weather">
+            <div class="icon">
+                <img src="mist.png" class="weathericon"  height="165px" width="165px">
+            
+            </div>
+            
+            <div class="tempcity">
+                <h1 class="temp">25°C</h1>
+                <h2 class="city">Mathura</h2>
+            </div>
+        </div>
+        <div class="info">
+            <div class="col">
+                <img src="humidity.png" class="color" height="54px" width="46px">
+                <div class="details">
+                    <p class="wind" id="humiddata">33%</p>
+                    <p class="humid">Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+            <img src="wind.png" height="54px" width="46px" class="color">
+            <div class="details">
+                <p class="wind" id="winddata">13 Km/h</p>
+                <p class="humid">Wind</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="wheather2.js"></script>
+</body>
+
+</html>
